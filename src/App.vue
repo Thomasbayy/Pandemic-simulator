@@ -363,12 +363,10 @@ body {
   padding: 0;
   padding-bottom: 30px;
   margin: 0;
-  background-color: #191919;
   flex-direction: column;
 }
 
 .game-box {
-  border: 4px solid black;
 }
 
 .row {
@@ -378,8 +376,9 @@ body {
 .block {
   width: 5px;
   height: 5px;
-  background-color: blue;
-  border: 1px solid black;
+  border-radius: 50%;
+  margin: 1px;
+  background-color: #3232c4;
 }
 
 .block-infected {
@@ -387,15 +386,15 @@ body {
 }
 
 .block-cured {
-  background-color: purple;
+  background-color: #9b3e9b;
 }
 
 .block-vaccinated {
-  background-color: #53cf53;
+  background-color: #00ff00;
 }
 
 .block-dead {
-  background-color: grey;
+  background-color: #191919;
 }
 
 .start-game-button {
@@ -425,22 +424,22 @@ body {
 }
 
 .stats-unaffected {
-  color: blue;
+  color: #3232c4;
   margin-right: 30px;
 }
 
 .stats-dead {
-  color: grey;
+  color: #191919;
   margin-right: 30px;
 }
 
 .stats-cured {
-  color: purple;
+  color: #9b3e9b;
   margin-right: 30px;
 }
 
 .stats-vaccinated {
-  color: #53cf53;
+  color: #00ff00;
 }
 
 .control-box {
@@ -463,6 +462,7 @@ body {
 
 .control-label {
   margin-bottom: 4px;
+  color: #191919;
 }
 
 </style>
