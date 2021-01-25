@@ -408,7 +408,7 @@ body {
 
 .day-counter {
   font-size: 36px;
-  color: white;
+  color: #191919;
   margin-bottom: 24px;
 }
 
